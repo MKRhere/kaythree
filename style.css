@@ -1,0 +1,28 @@
+* {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	font-size: 1.5vw;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+#head {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#head * {
+	display: block;
+	text-align: center;
+	width: auto;
+}
+
+#head img {
+	height: 30vw;
+	width: 30vw;
+}
